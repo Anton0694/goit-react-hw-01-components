@@ -1,11 +1,14 @@
 import { Profile } from './Profile/Profile';
-import user from '../user.json';
-import { Stats } from './Statistics/Statistics';
-import data from '../data.json';
+import { Statistics } from './Statistics/Statistics';
+
+import user from './user.json';
+import data from './data.json';
+
+import css from './App.module.css'
 
 export const App = () => {
   return (
-    <div
+    <div className={css.style}
       style={{
         height: '100vh',
         display: 'flex',
@@ -22,8 +25,8 @@ export const App = () => {
   avatar={user.avatar}
   stats={user.stats}
       />
-      <Stats title="Upload stats" stats={data} />
-     <Stats stats={data} />
+      <Statistics title={data.title} stats={data} />
+        
     </div>
   );
 };

@@ -1,3 +1,29 @@
 .stat_list{
 list-style: none;
+display: flex;
+padding: 16px;
+gap: 16px
+;
+/* justify-content: space-evenly; */
+outline: 1px solid black;
 }
+
+.item{
+    display: flex;
+    flex-direction: column;
+}
+.statistics{
+    display: flex;
+    
+}
+
+.label{
+    display: flex;
+}
+
+.percentage{
+
+    display: flex;
+    justify-content: center;
+}
+
