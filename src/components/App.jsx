@@ -2,7 +2,7 @@ import { Profile } from './Profile/Profile';
 import { Statistics } from './Statistics/Statistics';
 import { FriendList } from './FriendList/FriendList';
 import { TransactionHistory } from './TransactionHistory/TransactionHistory';
-/* import { ThemeProvider } from '@emotion/react'; */
+
 
 import user from './user.json';
 import data from './data.json';
@@ -32,10 +32,10 @@ export const App = () => {
   avatar={user.avatar}
   stats={user.stats}
       />
-     {/*  <ThemeProvider theme={theme}> */}
+     
 
         <Statistics title={data.title} stats={data} />
-       {/*  </ThemeProvider> */}
+      
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />;
     </div>
