@@ -1,8 +1,8 @@
-.stat_list{
+.statList{
 list-style: none;
 display: flex;
-padding: 16px;
-gap: 16px
+padding: 10px;
+gap: 14px
 ;
 /* justify-content: space-evenly; */
 outline: 1px solid black;
@@ -11,7 +11,10 @@ outline: 1px solid black;
 .item{
     display: flex;
     flex-direction: column;
-}
+    /* background-color: function getRandomHexColor() {
+            return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+        }};
+} */}
 .statistics{
     display: flex;
     
@@ -27,3 +30,6 @@ outline: 1px solid black;
     justify-content: center;
 }
 
+.title{
+    display: flex;
+}

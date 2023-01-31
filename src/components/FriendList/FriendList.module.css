@@ -1,0 +1,35 @@
+.friendList {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 15px 15px;
+}
+
+.item{
+    display: inline-flex;
+}
+
+.name{
+    display: flex;
+    padding-left: 20px ;
+}
+
+.status{
+    display: flex;
+    outline: 1px solid black;
+    background-color: #fff ;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    top: 50%;
+
+    
+}
+
+.avatar{
+    display: flex;
+    height: 70px ;
+    background-image: cover;
+    padding-left: 20px;
+}
