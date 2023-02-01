@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 
 
-export const Statistics = (statistics) => {
+export const Statistics = ({statistics}) => {
     return (
         
             <section className={css.statistics}>
