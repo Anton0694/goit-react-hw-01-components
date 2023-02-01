@@ -45,7 +45,7 @@ export const Profile = ({username, tag, location, avatar, stats : { followers, v
 
 }
 
-/* Profile.propTypes = {
+Profile.propTypes = {
     username: PropTypes.string.isRequired,
     tag: PropTypes.string.isRequired,
     location: PropTypes.string.isRequired,
@@ -55,5 +55,5 @@ export const Profile = ({username, tag, location, avatar, stats : { followers, v
         views: PropTypes.number.isRequired,
         likes: PropTypes.number.isRequired,
     }).isRequired,
-} */
+}
 

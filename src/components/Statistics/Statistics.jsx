@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 
 
-export const Statistics = ({data}) => {
+export const Statistics = ({stats}) => {
     return (
         
             <section className={css.statistics}>
@@ -11,7 +11,7 @@ export const Statistics = ({data}) => {
 
             <ul className={css.statList}>
             
-                    {data.map(({ id, label, percentage }) => (
+                    {stats.map(({ id, label, percentage }) => (
                     <li key={id} className={css.item}>
                 <span className={css.label}>.{label}</span>
                 <span className={css.percentage}>{percentage}%</span>
@@ -24,13 +24,13 @@ export const Statistics = ({data}) => {
     );
 }
 
-/* Statistics.propTypes = {
+Statistics.propTypes = {
     title: PropTypes.string,
     statistics: PropTypes.exact({
         id: PropTypes.string.isRequired,
         label: PropTypes.string.isRequired,
         percentage: PropTypes.number.isRequired,
     }),
-}; */
+};
 
     
