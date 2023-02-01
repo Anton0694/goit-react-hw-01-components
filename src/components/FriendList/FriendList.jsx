@@ -1,5 +1,6 @@
 import css from 'components/FriendList/FriendList.module.css'
 import PropTypes from 'prop-types';
+import {Status} from './FriendList.styled'
 
 export const FriendList = ({friends}) => {
     
@@ -7,7 +8,7 @@ export const FriendList = ({friends}) => {
         {friends.map(({ id, avatar, name, isOnline }) => (
             
             <li key={id} className={css.item}>
-                <span className={css.status}>{isOnline}</span>
+                <Status isOnline={isOnline} >{isOnline}</Status>
   <img className={css.avatar} src={avatar} alt="User avatar" width="70" />
                 <p className={css.name}>{name}</p>
  </li>
