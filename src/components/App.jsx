@@ -17,7 +17,6 @@ export const App = () => {
   return (
     <div className={css.style}
       style={{
-        height: '100vh',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',

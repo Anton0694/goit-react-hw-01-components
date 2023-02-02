@@ -11,10 +11,14 @@ outline: 1px solid black;
 .item{
     display: flex;
     flex-direction: column;
-    /* background-color: function getRandomHexColor() {
-            return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-        }};
-} */}
+   }
+ /* .item:nth-child(odd) {
+       background-color: #ff33cc;
+   }
+
+ .item:nth-child(even) {
+       background-color: #e495e4;
+   } */
 .statistics{
     display: flex;
     
