@@ -1,18 +1,25 @@
 .friendList {
-    display: flex;
+    display: flex-box;
     flex-direction: column;
     list-style: none;
     margin: 0;
     padding: 15px 15px;
+
 }
 
 .item{
-    display: inline-flex;
+    display: flex;
+    outline: 1px solid rgba(111, 111, 111, 0);
+        box-shadow: -3px 2px 56px -7px rgba(0, 0, 0, 0.7);
+        border-radius: 7px;
+    margin-bottom: 50px;
 }
 
 .name{
     display: flex;
-    padding-left: 20px ;
+    padding-top: 20px;
+    padding-left: 30px ;
+    padding-right: 30px;
 }
 
 .true {
@@ -26,7 +33,14 @@ background-color: red;
 }
 .avatar{
     display: flex;
-    height: 70px ;
+    height: 130px ;
     background-image: cover;
-    padding-left: 20px;
+    padding: 30px;
+    outline: 1px solid rgba(111, 111, 111, 0);
+        
+        border-radius: 7px;
+    
+    
+    
 }
+
